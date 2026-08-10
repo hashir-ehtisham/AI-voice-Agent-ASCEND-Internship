@@ -1,0 +1,22 @@
+# =============================================================================
+# Voice Agent + RAG Pipeline — Python Dependencies
+# =============================================================================
+# Install with: pip install -r requirements.txt
+# Requires Python 3.10+
+
+# --- LiveKit Agents framework + plugins ---
+# [openai]  → livekit-plugins-openai  (Ollama LLM, Speaches STT, Speaches TTS)
+# [silero]  → livekit-plugins-silero  (local VAD, no API key needed)
+livekit-agents[openai,silero]~=1.0
+
+# --- RAG pipeline dependencies ---
+pypdf                  # PDF text extraction (lightweight, pure-Python)
+numpy                  # In-memory vector storage and cosine similarity
+requests               # HTTP calls to Ollama embedding/chat API
+
+# --- Environment variable loading ---
+python-dotenv          # Loads .env.local into os.environ
+
+# --- Speaches: local OpenAI-compatible STT+TTS server (no Docker required) ---
+# Provides: faster-whisper STT  +  Kokoro TTS  via a single local server process
+speaches
