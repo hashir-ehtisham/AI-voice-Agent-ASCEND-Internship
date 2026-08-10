@@ -1,6 +1,6 @@
 # Askari Bank HR AI Call Agent
 
-Welcome to the **Askari Bank HR AI Call Agent** project, developed during the **Ascend Internship**. This project implements an intelligent, voice-based AI assistant designed to help Askari Bank employees navigate HR policies, benefits, leave rules, and codes of conduct naturally through conversation.
+Welcome to the **Askari Bank HR AI Call Agent** project, developed during the **Ascend Internship** by Muhammad Hashir Ehtisham. This project implements an intelligent, voice-based AI assistant designed to help Askari Bank employees navigate HR policies, benefits, leave rules, and codes of conduct naturally through conversation.
 
 The project features a **Retrieval-Augmented Generation (RAG)** pipeline to ground the AI's responses in official Askari Bank HR documentation (provided as a PDF).
 
